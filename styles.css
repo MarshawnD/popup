@@ -36,6 +36,7 @@
     justify-content: center;
     max-width: 940px;
     width: 100%;
+    max-width: 400px;
   }
 
 .popup-style h4 {
@@ -51,6 +52,7 @@
     justify-content: center;
     padding-top: 16px;
     width: 100%;
+    max-width: 400px;
 }
 
 .popup-style form input{
@@ -58,16 +60,21 @@
     font-size: 16px;
     padding: 8px;
     min-width: 192px;
+    width: 100%;
 }
 
 .popup-style form button{
     height: 40px;
-    width: 110px;
+    max-width: 110px;
+    width: 100%;
+    min-width: 90px;
     font-size: 16px;
     font-weight: 900;
     line-height: 21.88px;
     text-align: center;
     margin-left: 8px;
+    background-color: rgb(172, 36, 36);
+    color: white;
 }
   
   .close-style {
@@ -86,7 +93,7 @@
     color: #f00;
   }
 
-  @media (min-width: 767px) {
+  @media (min-width: 768px) {
     .popup-style {
         flex-direction: row;
     }
